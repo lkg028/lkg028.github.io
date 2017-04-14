@@ -1,17 +1,59 @@
 body {
-  background-color: #eee;
-  border: 1px solid #999;
-  padding: 20px;
   margin: 20px;
+}
+
+div.main {
+	background-color: #eee;
+	margin: 0px;
+	border: 1px solid #999;
+	padding: 20px;
 }
 
 img {
   display: block;
   width: 80px;
   height: 80px;
+  padding: 20px;
+  padding-bottom: 0px;
 }
 
 aside {
   background-color: white;
-  padding: 20px;
+}
+
+aside.team {
+	width: 200px;
+	float: left;
+	padding: 0px;
+	padding-bottom: 20px;
+	border: 1px solid #999;
+}
+
+aside.team p {
+	position: absolute;
+	top: 60px;
+	left: 160px;
+	margin:0px;
+}
+
+aside.person {
+	background-color: white;
+	border: 1px solid #999;
+	width: 120px;
+	float: right;
+	padding-bottom: 20px;
+}
+
+section.main {
+	background-color: white;
+	margin-right: 140px;
+	margin-left: 220px;
+	border: 1px solid #999;
+	padding: 20px;
+	padding-top: 0px;
+}
+
+footer {
+	width: 100%;
+	clear: right;
 }
