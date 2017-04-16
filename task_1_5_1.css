@@ -1,0 +1,197 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #ccc;
+	font-size: medium;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+header, footer {
+	height: 60px;
+	width: 100%;
+	background-color: #333333;
+}
+
+img#logo {
+	margin-top: 5px;
+	margin-left: 40px;
+	width: 250px;
+	height: 50px;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	height: 60px;
+	padding: 0px;
+	margin:0px;
+	margin-right: 20px;
+	vertical-align: medium;
+}
+
+header nav ul li{
+	float: left;
+	margin-left: 40px;
+	padding-top: 20px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a:link {
+	color: white;
+}
+
+nav ul li a:visited {
+	color: #ccc;
+}
+
+nav ul li a:hover {
+	color: white;
+}
+
+section.main {
+	margin-right: 450px;
+}
+
+aside {
+	position: absolute;
+	right: 0px;
+	top: 60px;
+	width: 470px;
+}
+
+footer p {
+	color: white;
+	font-weight: bold;
+	width: 80px;
+	margin: 15px auto;
+	padding-top: 20px;
+}
+
+article {
+	background-color: white;
+	margin: 20px;
+	padding: 15px 20px;
+	border-radius: 2px;
+	box-shadow: 2px 2px grey;
+}
+
+article.text h3, article.text h3+p{
+	color: #666666;
+}
+
+p {
+	text-indent: 2em;
+}
+
+article.text h3+p, footer p{
+	text-indent: 0em;
+}
+
+article img {
+	width: 120px;
+	height: 120px;
+}
+
+article ul {
+	list-style-type: none;
+}
+
+article.image ul li{
+	text-align: center;
+	width: 150px;
+	border: 1px solid grey;
+	margin: 15px;
+	padding-top: 5px;
+	float: left;
+}
+
+article.image ul li img{
+	margin: 15px;
+	margin-top: 5px;
+}
+
+article.image div.clear {
+	clear: both;
+}
+
+article table {
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+	text-indent: 0.5em;
+}
+
+article table th,article table td {
+	border: 2px solid #999999;
+}
+
+thead {
+	background-color: #222222;
+	color: white;
+}
+
+tfoot {
+	font-weight: bold;
+	background-color: #aaaaaa;
+}
+
+form {
+	display: table;
+	font-size: 0.9em;
+	width: 100%;
+}
+
+form textarea {
+	width: 240px;
+	height: 100px;
+}
+
+form div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+	text-indent: 0em; 
+}
+
+div.tableRow p:first-child {
+	text-align: right;
+	padding-left: 10px;	
+}
+
+form p.grey {
+	color: grey;
+	padding-bottom: 30px;
+}
+
+aside h2 {
+	border-left: 3px solid #bbb;
+	padding: 10px;
+}
+
+input.submit {
+	width: 390px;
+	height: 30px;
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+	border: 1px solid dodgerblue;
+	border-radius: 5px; 
+}
