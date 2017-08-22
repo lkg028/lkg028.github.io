@@ -43,6 +43,7 @@ form input {
 	padding-left: 15px;
 	height: 30px;
 	font-size: 18px;
+	vertical-align: middle;
 }
 form input:focus {
 	outline: none;
@@ -56,6 +57,7 @@ form input[type="button"] {
 	border: none;
 	background-color: #5fc0cd;
 	cursor: pointer;
+	vertical-align: baseline;
 }
 
 form label[for="phone"],
