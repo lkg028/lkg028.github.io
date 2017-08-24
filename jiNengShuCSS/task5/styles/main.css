@@ -146,14 +146,20 @@ footer {
 }
 
 footer input {
+	flex-grow: 1;
 	height: 40px;
 	width: 200px;
+	margin: 10px;
 	border: 2px solid #5fc0cd;
 	border-radius: 5px;
 	font-size: 18px;
-	flex-grow: 1;
-	margin: 10px;
+	cursor: pointer;
 }
+
+footer input:focus {
+	outline: none;
+}
+
 footer input[name="message"] {
 	color: #5fc0cd;
 	background-color: white;
