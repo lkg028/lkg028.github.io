@@ -17,7 +17,6 @@ header {
 .menu {
 	position: relative;
 	height: 50px;
-	line-height: 50px;
 	text-align: center;
 }
 
@@ -25,7 +24,6 @@ header {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	display: inline-block;
 	border-radius: 5px;
 	margin-top: -20px;
 	margin-left: -80px;
@@ -114,9 +112,10 @@ header {
 }
 
 .fliter-item-list li {
-	background-color: #fff;
 	border-right: 1px solid #e2e6e8;
 	border-left: 1px solid #e2e6e8;
+	background-color: #fff;
+	color: #000;
 }
 
 .fliter-item-list li:first-child {
@@ -271,23 +270,4 @@ footer div {
 	width: 28px;
 	height: 28px;
 	background: url(../images/icon.png) 0 -29px;
-}
-
-#demo2 li{
-	width:104px;
-	float:left;
-	margin-right:20px;
-	display:inline;
-}
-#demo2 img{
-	padding:2px;
-	border:1px solid #ccc;
-}
-#demo2 strong{
-	-o-text-overflow: ellipsis;
-	text-overflow: ellipsis;		  
-	overflow: hidden;
-	white-space: nowrap;
-	width:104px;
-	display:block;
 }
