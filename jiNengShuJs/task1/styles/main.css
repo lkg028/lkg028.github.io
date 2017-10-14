@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 100%;
+}
+.box {
+    position: relative;
+    float: left;
+    background-color: #fea500;
+    width: 30%;
+    padding-top: 30%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+
+.col3 {
+    margin-right: 2%;
+}
+.col1 {
+    margin-left: 2%;
+}
+.row1 {
+    margin-top: 2%;
+}
+
+button {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #fea500;
+    margin: 10px auto;
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #fea500;
+}
+
+button:active {
+    border-style: none;
+    border: 1px solid #fea500;
+}
+
+button:focus {
+    outline: none;
+    border: 1px solid #fea500;
+}
+
+button:active,
+button:hover,
+button:focus {
+    background-color: #fea500;
+    color: #fff;
+}

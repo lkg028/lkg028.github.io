@@ -1,0 +1,13 @@
+body {
+	background-color: #f0f0f0;
+}
+
+header {
+	background-color: #29bde0;
+}
+
+.game .row > div{
+	border: 2px solid #cbcbcb;
+	margin-top: 15px;
+	background-color: #fff;
+}
